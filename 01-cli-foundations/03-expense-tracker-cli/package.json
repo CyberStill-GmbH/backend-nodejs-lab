@@ -1,0 +1,26 @@
+{
+  "name": "03-expense-tracker-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "typecheck:watch": "tsc --noEmit --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bin": {
+    "expense": "dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
