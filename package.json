@@ -1,0 +1,6 @@
+{
+  "name": "backend-nodejs-lab",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js"
+}
